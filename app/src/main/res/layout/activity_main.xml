@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+    android:weightSum="1"
+    android:background="#ab626262">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/topLayer"
+        android:background="#ffffff">
+
+        <TextView
+            android:layout_width="228dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="AppAnalyzer"
+            android:id="@+id/appName"
+            android:textSize="30sp"
+            android:paddingLeft="40sp"
+            android:paddingTop="20sp"
+            android:paddingBottom="20sp"
+            android:textColor="#ff000000" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/imageView"
+                android:src="@drawable/icon"
+                android:background="#ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/bottomLayer"
+        android:background="#d92c84f4"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/startAnalyze"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50sp"
+            android:src="@android:drawable/ic_menu_manage"
+            android:layout_weight="0.12"
+            android:background="#ff98caff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Analyzing"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="#ff000000" />
+
+        <ImageButton
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/workingMechanism"
+            android:layout_gravity="center_horizontal"
+            android:src="@android:drawable/ic_menu_help"
+            android:layout_weight="0.15"
+            android:background="#ff98caff"
+            android:layout_marginTop="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How it Works?"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="#ff000000" />
+
+        <ImageButton
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/aboutUs"
+            android:layout_gravity="center_horizontal"
+            android:src="@android:drawable/ic_menu_info_details"
+            android:layout_weight="0.17"
+            android:background="#ff98caff"
+            android:layout_marginTop="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:id="@+id/textView4"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="#ff000000" />
+    </LinearLayout>
+</LinearLayout>

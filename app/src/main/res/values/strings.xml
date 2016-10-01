@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AppAnalyzer</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_analyzer">Analyzer</string>
+    <string name="title_activity_evaluate_permissions">EvaluatePermissions</string>
+    <string name="title_activity_get_more_info">GetMoreInfo</string>
+    <string name="title_activity_working_mechanism">WorkingMechanism</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    <string name="title_activity_splash_screen">AppAnalyzer</string>
+</resources>
